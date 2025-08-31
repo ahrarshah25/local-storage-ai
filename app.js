@@ -1,11 +1,6 @@
 console.log("JS Connected Success!");
 
 
-
-
-
-
-
 document.getElementById("submitBtn").addEventListener("click", () => {
     const input = document.getElementById("userInput").value.toLowerCase();
 let response = "";
