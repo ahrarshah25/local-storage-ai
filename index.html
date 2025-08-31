@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Ai | AS Develoeprs</title>
+    <link rel="shortcut icon" href="botlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                 <!-- <img src="botlogo.png" alt="LogoFailed"> -->
+            </div>
+            <h1>AS Developers AI Assistant</h1>
+            <p>Your local AI chatbot ready to help</p>
+        </div>
+        
+        <div class="chat-container" id="chatContainer">
+            <div class="message bot-message">
+                Hello! I'm your local AI assistant. How can I help you today?
+            </div>
+
+
+
+            <div class="chat-container">
+                <div class="message bot-message">
+                    <div id="response"></div>
+                </div>
+
+
+
+            <div class="typing-indicator" id="typingIndicator">
+                <div class="typing-dots">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            <button id="submitBtn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+
+
+
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 AS Developers - Local AI Chatbot</p>
+    </div>
+
+</body>
+
+<script src="./app.js"></script>
+
+</html>
